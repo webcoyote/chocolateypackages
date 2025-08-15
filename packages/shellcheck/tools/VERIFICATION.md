@@ -9,17 +9,17 @@ Package can be verified by running Powershell and executing the following comman
 
 ### Download the package
 ```
-wget https://github.com/koalaman/shellcheck/releases/download/v0.9.0/shellcheck-v0.9.0.zip -outfile shellcheck-v0.9.0.zip
+wget https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.zip -outfile shellcheck-v0.11.0.zip
 ```
 
 ### Verify the checksum
 ```
-Get-FileHash -Algorithm SHA512 .\shellcheck-v0.9.0.zip | Format-List
+Get-FileHash -Algorithm SHA512 .\shellcheck-v0.11.0.zip | Format-List
 ```
 
 Output
 ```
-Hash : 31F415A995864D238E4C286CFD0227DAE3C9BCC6C327B925E182A390C9258A1783F815BA4389D85BEA504CFE62B1BABDC862303F2EF014AF66D4189A42797BD0
+Hash : 910a27486747ff78dc8a036db7460ef4f3278658a87fc19b79de2fde5deca274be651b03e171ea1bafaaae6560d8e3d65e7e119fe7889bc83a60aef0dca8623f
 ```
 
 # License
